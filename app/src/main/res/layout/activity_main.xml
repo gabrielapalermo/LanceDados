@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:foreground="@android:color/primary_text_light"
+    android:foregroundTint="#FFFFFF"
     tools:context=".MainActivity">
 
     <TextView
@@ -42,6 +44,7 @@
         android:layout_marginStart="76dp"
         android:fontFamily="monospace"
         android:text="@string/etiqueta_dado_1"
+        android:textColor="#F44336"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
